@@ -8,6 +8,7 @@
 
 
 require 'faker'
+
 50.times do
   a = Faker::Address.city
   City.create(name: a)
@@ -16,9 +17,7 @@ end
 100.times do
   a = Faker::HowIMetYourMother.character
   Dogsitter.create(name: a, city_id: rand(50))
- # Article.find(i)(title: a.truncate(30, separator: ' '), body: a, description: "An incredible story with Chuck Norris ", user_id: User.find_by(name: 'Hugo').id)
 end
-
 
 
 100.times do
