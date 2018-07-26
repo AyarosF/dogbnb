@@ -1,4 +1,4 @@
-# Dogbnb - projet THP 25 juillet 2018
+# Dogbnb - projet THP 26 juillet 2018
 
 ## Après avoir cloné le repo
 
